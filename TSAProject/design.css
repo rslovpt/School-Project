@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(226, 222, 222) !important;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+
+  font-size: 200%;
+  font-weight: 100;
+  font-family: 'Courier', 'Courier New', Courier, monospace;
+  color: white
+}
+
+.main img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 2px solid rgb(202, 198, 198);
+  width: 125px;
+}
+
+.main h1 {
+  font-size: 200%;
+  font-weight: 100;
+  color: rgb(13, 193, 13);
+}
+
+.main h3 {
+  font-family: 'Courier', 'Courier New', Courier, monospace;
+  font-size: 100%;
+  font-weight: 200;
+  color: rgb(23, 138, 128);
+
+  margin-top: -.5in;
+  margin-bottom: .5in;
+}
+
+.SectionOne h4{
+  width: 100%;
+  font-family: 'Courier', 'Courier New', Courier, monospace;
+  font-size: 125%;
+  font-weight: 200;
+  color: darkslategray;
+}
+
+.SectionOne img {
+  position: relative;
+
+  border-radius: 0%;
+  border: 0px;
+  width:80%;
+
+  margin-top: 0.3in;
+  margin-bottom: -0.3in;
+
+  max-height: 0.05in;
+  min-height: 0.005;
+}
+
+.SectionOne p {
+  width: 50%;
+  left: 50%;
+  margin: 0 auto;
+
+  font-family: 'Courier', 'Courier New', Courier, monospace;
+  font-size: 60%;
+  font-weight: 200;
+  color: green;
+}
