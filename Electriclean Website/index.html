@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Main Page</title>
+  <link rel="stylesheet" type="text/css" href="design.css" />
+
+  <script>
+    var siteWidth = 1200;
+    var scale = screen.width / siteWidth;
+
+    document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scale + '');
+  </script>
+</head>
+</head>
+
+<body>
+  <script src="static.js"></script>
+  <div class="main">
+    <img src="images/leaflogo.jpeg" id='logo' alt="Electriclean Logo" />
+    <h1 id='TitleName'>Electriclean</h1>
+    <h3>A Clean Solution With Electrified Information</h3>
+    <br><br>
+    <div class="SectionOne">
+      <img src="images/line.png" id="LineDivisionOne">
+      <h4>Who Are We</h4>
+      <p id="Paragraph">We specialize in giving the world a better way of knowing how to consume and utilize energy to help Earth stay as it is for the upcoming generation.</p>
+      <img src="images/windmill.webp" id='windmill' alt="Our Class-1 Windmill's"/>
+      <h5 id="Description">-- The World Of Windmills --</h5>
+      </p>
+      <div class="SubSectionOne">
+        <br>
+        <h4>Our End-Goal Mission</h4>
+        <p id="Paragraph2">We hope to provide great service across the United States and beyond. This includes affordable prices on any product and free information for anyone. </p>
+        <img src="images/solarpanelpic.webp" id='solarpanels' alt="Our Solar Panels" />
+        <h5 id="Description">-- Only Solar Panels --</h5>
+      </div>
+      <div class="PageOptions">
+        <br>
+        <button>About More</button>
+        <button onclick="location.href='cost.html'" >Products</button>
+        <button>References</button>
+        <br>
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
+</body>
+
+</html>
